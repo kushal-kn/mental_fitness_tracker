@@ -1,7 +1,27 @@
-**MENTAL FITNESS TRACKER**
+# Mood Predictor using Random Forest Regression
+This project is a mood predictor that utilizes a Random Forest Regression model to predict mood levels based on various features related to mental health and substance use.
 
-The objective of the Mental Fitness Tracker powered by Artificial Intelligence (AI) is to create an intelligent software tool that can effectively monitor, assess, and support individuals in managing their mental health and well-being. Leveraging AI technologies, the mental fitness tracker aims to provide personalized and proactive mental health support to users, promoting mental resilience and overall emotional well-being!
+## Features
+1. Predicts mood levels based on features such as schizophrenia, bipolar disorder, eating disorder, anxiety, drug usage, depression, and alcohol consumption.
+2. Provides an interpretation of the predicted mood level (e.g., Very Low Mood, Low Mood, Moderate Mood, High Mood).
+   
+## Prerequisites
+To run this project, you need Python installed on your system along with the following libraries:
 
-The project code along with the dataset used in the project is given here.
+1. NumPy
+2. pandas
+3. scikit-learn
+4. Google Colab (if using Google Colab environment)
+   
+## Getting Started
+1. Clone this repository to your local machine.
+2. If using Google Colab, mount your Google Drive to access the provided CSV files containing mental health data.
+3. Run the mood_predictor.ipynb notebook or execute the Python script mood_predictor.py.
+4. Follow the prompts to enter the features for the person whose mood you want to predict.
+5. View the predicted mood level along with its interpretation.
 
-Required software : **Google Colab**
+## File Description
+1. mood_predictor.ipynb: Jupyter Notebook containing the Python code for the mood predictor.
+2. mood_predictor.py: Python script containing the same code as in the Jupyter Notebook.
+3. prevalence-by-mental-and-substance-use-disorder.csv: CSV file containing prevalence data for mental and substance use disorders.
+4. mental-and-substance-use-as-share-of-disease.csv: CSV file containing mental and substance use data as a share of disease.
