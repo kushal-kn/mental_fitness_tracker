@@ -2,8 +2,8 @@
 This project is a mood predictor that utilizes a Random Forest Regression model to predict mood levels based on various features related to mental health and substance use.
 
 ## Features
-1. Predicts mood levels based on features such as schizophrenia, bipolar disorder, eating disorder, anxiety, drug usage, depression, and alcohol consumption.
-2. Provides an interpretation of the predicted mood level (e.g., Very Low Mood, Low Mood, Moderate Mood, High Mood).
+* Predicts mood levels based on features such as schizophrenia, bipolar disorder, eating disorder, anxiety, drug usage, depression, and alcohol consumption.
+* Provides an interpretation of the predicted mood level (e.g., Very Low Mood, Low Mood, Moderate Mood, High Mood).
    
 ## Prerequisites
 To run this project, you need Python installed on your system along with the following libraries:
@@ -21,7 +21,6 @@ To run this project, you need Python installed on your system along with the fol
 5. View the predicted mood level along with its interpretation.
 
 ## File Description
-1. mood_predictor.ipynb: Jupyter Notebook containing the Python code for the mood predictor.
-2. mood_predictor.py: Python script containing the same code as in the Jupyter Notebook.
-3. prevalence-by-mental-and-substance-use-disorder.csv: CSV file containing prevalence data for mental and substance use disorders.
-4. mental-and-substance-use-as-share-of-disease.csv: CSV file containing mental and substance use data as a share of disease.
+* Mental Fitness tracker.ipynb: Jupyter Notebook containing the Python code for the mood predictor.
+* prevalence-by-mental-and-substance-use-disorder.csv: CSV file containing prevalence data for mental and substance use disorders.
+* mental-and-substance-use-as-share-of-disease.csv: CSV file containing mental and substance use data as a share of disease.
